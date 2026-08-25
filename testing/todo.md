@@ -1,0 +1,60 @@
+# Project TODO
+
+- [x] Define transparent prototype data assumptions, index baseline, and route basket weights.
+- [x] Model domestic routes, advance-purchase windows, fare quotes, ingestion outcomes, and benchmark data in the database schema.
+- [x] Add a permitted/sample-data ingestion and normalization workflow with de-duplication, missing-value handling, availability statuses, and outlier flags.
+- [x] Implement route-weighted daily, weekly, and monthly Airfare Price Index calculations with baseline comparison.
+- [x] Expose typed APIs for index values, routes, fare quotes, filters, and back-testing comparisons.
+- [x] Persist the transparent illustrative benchmark series used in the prototype back-test.
+- [x] Add a dedicated typed API endpoint for benchmark and back-testing comparisons.
+- [x] Build an elegant responsive analytics dashboard with KPIs, time series, route heatmap, lead-time elasticity, filters, and benchmark view.
+- [x] Replace the route-pressure bars with a true color-encoded heatmap matrix.
+- [x] Build transparent methodology and ethical-data-collection documentation views in the app.
+- [x] Add automated tests covering normalization, index methodology, and typed API behavior.
+- [x] Add concise project documentation covering assumptions, methodology, source boundaries, and local development.
+- [x] Verify visual presentation, functionality, types, and automated tests before delivery.
+- [x] Add direct-link support for the methodology view and dashboard filters to aid audit and review.
+- [x] Complete direct verification of view, filter, refresh, benchmark, and typed API flows.
+- [x] Replace the generic dashboard visual language with a distinctive editorial aviation-intelligence design while retaining all analytics functionality.
+- [x] Verify the redesigned experience across desktop and mobile layouts.
+- [x] Restyle the interface around the supplied APiX reference: deep navy navigation, bright product header, clean metric cards, and an analytical trend-first workspace.
+- [x] Reorganize dashboard navigation and content hierarchy to match the APiX reference while retaining current analytics and methodology access.
+- [x] Verify desktop and mobile layouts against the supplied APiX reference.
+- [x] Replace APiX-style placeholder navigation items with working in-page analytics targets.
+- [x] Add a dedicated Route Explorer section and an auditable Fare Data table so each sidebar label opens a truthful destination.
+- [x] Verify every APiX-style sidebar destination in the live interface.
+- [x] Replace sidebar scroll targets with distinct, fully functional product views for Overview, Sector Heatmap, Lead-Time Elasticity, Route Explorer, Pipeline Monitor, Fare Data, and API Docs.
+- [x] Provide functional filters, route selection, data inspection, CSV export, and view-specific refresh behavior across the new views.
+- [x] Simplify the visual system into a cool minimal dashboard style with reduced decoration, clearer spacing, and consistent interaction states.
+- [x] Test every sidebar view and core interaction at desktop and mobile breakpoints.
+- [x] Preserve full route coverage in Sector Heatmap and Route Explorer when a route filter is active.
+- [x] Add and verify contextual refresh behavior for each sidebar view.
+- [x] Verify every sidebar view and its core interactions at the mobile breakpoint.
+- [x] Exercise contextual refresh on every sidebar view and record each result.
+- [x] Complete interaction verification for filters, route selection, booking windows, table pagination, exports, and documentation navigation across the responsive dashboard.
+- [x] Preserve the complete lead-time elasticity series when a booking-window filter is active.
+- [x] Exercise both CSV export controls and verify the generated download flows.
+- [x] Execute the primary navigation and data interactions under the mobile-responsive interface.
+- [x] Run the remaining compact-layout interaction audit for navigation, filters, route application, booking windows, pagination, exports, and documentation.
+- [x] Exercise compact Market Lens dropdown changes and Fare Data CSV export directly in the responsive layout.
+- [x] Restyle the dashboard as a professional restrained dark interface with human-centered typography, purposeful color, and reduced template-like decoration.
+- [x] Verify the dark professional theme on desktop and compact responsive layouts without breaking any functional view or interaction.
+- [x] Re-run navigation, filters, refresh, pagination, and export checks after the dark-theme restyle.
+- [x] Capture the remaining Sector Heatmap, Lead-Time Elasticity, Route Explorer, and Pipeline Monitor views in the dark theme.
+- [x] Exercise and record a post-restyle dark-theme refresh action.
+- [x] Translate the supplied reference site into an original black-and-red visual system for the APiX dashboard without copying its content or branding.
+- [x] Rebuild the dashboard interface with the new visual system while retaining all live analytics and responsive behavior.
+- [x] Verify the black-and-red revision at desktop and compact breakpoints.
+- [x] Translate the supplied Pinterest colour-grade reference into an original, refined APiX colour and material system.
+- [x] Apply and verify the refined visual direction without changing dashboard functionality.
+- [x] Re-run live interactions after the colour-grade refinement, including navigation, filters, refresh, pagination, route application, and both export flows.
+- [x] Verify remaining Sector Heatmap, Lead-Time Elasticity, Route Explorer, and Pipeline Monitor views across desktop and compact layouts.
+- [x] Replace the Route Explorer cards with an interactive route-selection workspace inspired by the supplied references.
+- [x] Add active-route summary metrics, route fare-index trend, and carrier comparison driven by the live representative-route data.
+- [x] Verify route-selection, analysis, and responsive Route Explorer behavior at desktop and compact breakpoints.
+- [x] Replace Sector Heatmap cards with an origin–destination fare matrix inspired by the supplied reference.
+- [x] Add metric-mode controls, fare intensity legend, and a route-selection drill-through to Route Explorer.
+- [x] Verify heatmap interactions and compact responsive rendering.
+- [x] Restore eligible fare values and rankings in the Sector Heatmap matrix when the view first loads.
+- [x] Add explicit Sector Heatmap quote-query loading and error states so a pending or failed response is never mistaken for an unavailable network.
+- [x] Live-verify matrix metric switching, valid-cell drill-through, and inert unavailable cells.
